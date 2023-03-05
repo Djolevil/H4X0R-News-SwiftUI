@@ -22,6 +22,7 @@
 		5CA7416C29B4B91A001AF95A /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		5CA7416F29B53D7D001AF95A /* Detailview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detailview.swift; sourceTree = "<group>"; };
 		5CA7417129B54240001AF95A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		5CA7417329B547AE001AF95A /* H4X0R News SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4X0R News SwiftUI.entitlements"; sourceTree = "<group>"; };
 		5CE1C3C229B272220024B058 /* H4X0R News SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE1C3C529B272220024B058 /* H4X0R_News_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_News_SwiftUIApp.swift; sourceTree = "<group>"; };
 		5CE1C3C729B272220024B058 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		5CE1C3C429B272220024B058 /* H4X0R News SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5CA7417329B547AE001AF95A /* H4X0R News SwiftUI.entitlements */,
 				5CE1C3C529B272220024B058 /* H4X0R_News_SwiftUIApp.swift */,
 				5CA7416E29B53D68001AF95A /* Views */,
 				5CA7416929B4B763001AF95A /* Models */,
@@ -296,6 +298,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R News SwiftUI/H4X0R News SwiftUI.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News SwiftUI/Preview Content\"";
@@ -314,6 +318,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.djordje.H4X0R-News-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,6 +332,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R News SwiftUI/H4X0R News SwiftUI.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News SwiftUI/Preview Content\"";
@@ -343,6 +352,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.djordje.H4X0R-News-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
